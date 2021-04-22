@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+
+.container{
+    position: relative;
+    width: 375px;
+    height: 776px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #181719;
+}
+
+.home{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 159px;
+    top: 258px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 22px;
+    color: white;
+
+}
+.home:hover{
+    cursor: pointer;
+}
+.line{
+    position: absolute;
+    width: 57px;
+    height: 0px;
+    left: 155px;
+    top: 285px;
+    border: 2px solid white;
+}
+.collection{
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 142px;
+    top: 312px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.collection:hover{
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 159px;
+    top: 366px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.about:hover{
+    cursor: pointer;
+}
+
+.contact{
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 151px;
+    top: 420px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 375px){
+.container{
+    position: relative;
+    width: 375px;
+    height: 776px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #181719;
+}
+
+.home{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 159px;
+    top: 258px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 22px;
+    color: white;
+
+}
+.home:hover{
+    cursor: pointer;
+}
+.line{
+    position: absolute;
+    width: 57px;
+    height: 0px;
+    left: 155px;
+    top: 285px;
+    border: 2px solid white;
+}
+.collection{
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 142px;
+    top: 312px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.collection:hover{
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 159px;
+    top: 366px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.about:hover{
+    cursor: pointer;
+}
+
+.contact{
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    left: 151px;
+    top: 420px;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 22px;
+    color: white;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+.menubtn{
+    position: absolute;
+    left: 315px;
+    top: 60px;
+    cursor: pointer;
+}
+.bar1 {
+    width: 25px;
+    height: 3px;
+    background-color:#f2f2f2;
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transition: 0.4s;
+    position: absolute;
+    top: -20px;
+}
+.bar3{
+    width: 25px;
+    height: 3px;
+    background-color:#f2f2f2;
+    transform: rotate(45deg) translate(-8px, -8px);
+    transition: 0.4s;
+}
+
+}
