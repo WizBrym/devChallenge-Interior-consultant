@@ -2,7 +2,7 @@
 
 
 body{
-    
+    margin:0px;
 }
 .container{
     position: relative;
@@ -232,6 +232,10 @@ h5{
 /*--------for mobile screen 375x776----------*/
 
 @media screen and (max-width: 375px){
+    
+body{
+    margin:0px;
+}
 .container{
     position: relative;
     width: 375px;
