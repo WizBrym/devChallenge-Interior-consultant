@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
 
+body{
+    margin:0px;
+}
+
 .container{
     position: relative;
     width: 375px;
